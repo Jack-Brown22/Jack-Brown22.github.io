@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-const images = document.querySelectorAll("img");
+const images = document.querySelectorAll("");
 
 for(const image of images){
     fetch("https://dog.ceo/api/breeds/image/random")

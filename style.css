@@ -7,9 +7,11 @@ body {
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One";
-    box-shadow: 8px 8px 10px 3px rgb(81, 1, 1);
+    font-family: "Passion One";
     width: 15%;
+    font-size: 3.5vw;
+    text-decoration: underline;
+    color: #FF1E00;
 }
 
 ul{
@@ -17,21 +19,225 @@ ul{
 }
 
 body > header {
-    background-color: orange;
+    background-color: rgb(0, 0, 0);
     color: rgb(rgba(0, 255, 26, 0.719), green, blue);
     display: flex;
-    height: 12vh;
+    height: 15vh;
     align-items: center;
     justify-content: space-around;
 }
 
 #nav-ul {
     display: flex;
+    color: #FF1E00;
 }
 
 #nav-ul > li {
     padding: 8px;
-    margin: 16px;
+    margin: 10px;
+}
+
+.navbutton {
+    color: #FF1E00;
+    text-decoration: none;
+    padding: 12px;
+    border: 1.5px solid #FF1E00;
+    border-radius: 13%;
+}
+
+#intdiv {
+    border: 0; 
+    height: 10px; 
+    background-color: #FF1E00;
+    margin: 0px;
+}
+
+#filter-content {
+    color: #FF1E00;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#filter-team {
+    color: #FF1E00;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+aside {
+    width: 300px;
+    background: linear-gradient(to bottom, #e0dbdb, rgb(184, 176, 178));
+}
+
+#asi-div {
+    border: 0; 
+    height: 5px; 
+    background-color: #FF1E00;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+#HZlpFMzZR35MsMlRyd88qg {
+    display: flex;
+    margin-top: 20px;
+}
+
+#mxrb1 {
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#img-div {
+    border: 0; 
+    height: 5px; 
+    background-color: #FF1E00;
+    margin: 5px;
+    margin-top: 55px;
+}
+
+#main-subtitle {
+    color: #FF1E00;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 2.5vw;
+}
+
+#overview {
+    color: darkgreen;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.5vw;
+}
+
+#table-header {
+    color: darkgreen;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.5vw;
+    margin-top: 60px;
+}
+
+#wdccap {
+    color: darkgreen;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.5vw
+}
+
+#wdc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+#wcc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+th {
+    color: darkgreen;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.3vw;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+#teams-header {
+    color: darkgreen;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.5vw;
+    margin-top: 60px;
+}
+
+#rebull-header {
+    color: navy;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#mc-header {
+    color: #ff8000;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#fe-header {
+    color: #ef1a2d;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#me-header{
+    color: #c8ccce;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#am-header {
+    color: #037a68;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#rab-header {
+    color: blue;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#ha-header {
+    color: #e6002b;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#ap-header {
+    color: #2173b8;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#wi-header {
+    color: #00a0de;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#sab-header {
+    color: #de3126;
+    text-decoration: underline;
+    font-family: "Passion One";
+    font-size: 1.25vw;
+}
+
+#tab-div {
+    border: 0; 
+    height: 10px; 
+    background-color: #FF1E00;
+    margin: 0px;
 }
 
 body > header > nav > ul {
@@ -39,16 +245,8 @@ body > header > nav > ul {
     text-decoration: none;
 }
 
-.navbutton {
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
-}
-
 body > main article {
-    width: 70%;
+    width: 95%;
     margin: auto;
 }
 
@@ -62,20 +260,39 @@ h2 {
 }
 
 #main-content > div {
-    width: 70%;
+    width: 85%;
 }
 
 form {
     text-align: center;
 }
 
+#sursec {
+    border: 0; 
+    height: 10px; 
+    background: linear-gradient(to left, #e0dbdb, rgb(184, 176, 178));
+    margin: 0px;
+}
+
 body > footer {
-    background-color: orange;
+    background-color: rgb(2, 50, 2);
     display: flex;
 }
 
-img {
-    border-radius: 50%;
+#aut-tag {
+    font-family: "Passion One";
+    font-size: 1.8vw;
+}
+
+#sur-tag {
+    font-family: "Passion One";
+    font-size: 1.8vw
+}
+
+#footer-header {
+    color: #FF1E00;
+    font-family: "Passion One";
+    margin-left: 15px;
 }
 
 #footer-ul {
@@ -85,9 +302,10 @@ img {
 
 #footer-ul > div > li {
     margin-left: 12px;
+    margin-top: 5px;
 }
 
 #footer-ul > div > li > a {
-    color: white;
+    color: #FF1E00;
     text-decoration: none; 
 }

@@ -3,16 +3,15 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" 
     rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlogSite</title>
+    <title>Formula 1 Fan Page</title>
 </head>
 <body>
     <header>
-        <!-- hello cunts, this is a comment -->
-        <h1 id="logo">BrightBlog</h1>
+        <h1 id="logo">Formula 1 Fan Page</h1>
         <nav>
             <ul id="nav-ul">
                 <li><a href="" class="navbutton">Home</a></li>
@@ -25,107 +24,346 @@
         <div id="main-content">
             <aside>
                <section>
-                    <h4> Filter By Month </h4>
+                    <h4 id="filter-content"> Filter By Content </h4>
                     <nav>
                         <ul>
-                            <li><a href="">Filter for January</a></li>
-                            <li><a href="">Filter for Febrauary</a></li>
-                            <li><a href="">Filter for March</a></li>
+                            <!-- add links so they actually bring you to the thing you're clicking on -->
+                            <li><a href="#overview-article">Overview</a></li>
+                            <li><a href="#table-article">Current Standings</a></li>
+                            <li><a href="#teams-article">Teams</a></li>
                         </ul>
                     </nav>
                 </section>
                 <section>
-                    <h4> Filter by Category</h4>
+                    <h4 id="filter-team"> Filter by Team</h4>
                     <nav>
                         <ul>
-                            <li><a href="">Puppies</a></li>
-                            <li><a href="">Kittens</a></li>
-                            <li><a href="">Hedgehogs</a></li>
-                            <li><a href="">Otters</a></li>
+                            <li><a href="#ap-header">Alpine</a></li>
+                            <li><a href="#am-header">Aston Martin</a></li>
+                            <li><a href="#fe-header">Ferrari</a></li>
+                            <li><a href="#ha-header">Haas</a></li>
+                            <li><a href="#mc-header">McLaren</a></li>
+                            <li><a href="#me-header">Mercedes</a></li>
+                            <li><a href="#rab-header">Racing Bulls</a></li>
+                            <li><a href="#rebull-header">Red Bull</a></li>
+                            <li><a href="#sab-header">Sauber</a></li>
+                            <li><a href="#wi-header">Williams</a></li>
                         </ul>
                     </nav>
                 </section>   
+                <hr id="asi-div">
+                <section>
+                    <img id="mxrb1" src="https://motorsport.tech/wp-content/uploads/2018/08/untitled-4409-1.jpg" alt="Max Verstappen's Red Bull" style="max-width: 98%;">
+                    <img id="mxrb1" src="https://www.formula1.com/content/dam/fom-website/manual/Homepage%20Carousel/1016355155-LAT-20180708-_56I8012.jpg" alt="Mercedes and Ferrari Battling" style="max-width: 98%;">
+                    <img id="mxrb1" src="https://media.formula1.com/image/upload/f_auto,c_limit,w_1440,q_auto/t_16by9Centre/f_auto/q_auto/content/dam/fom-website/manual/Misc/2022manual/2022Races/EmiliaRomagnaGP/Saturday/imola-sprint-start" alt="" style="max-width: 98%;">
+                    <img id="mxrb1" src="https://www.goodwood.com/globalassets/.road--racing/race/historic/2020/9-september/list-best-f1-cars/best-f1-cars-of-all-time-1-mclaren-mp4-4-ayrton-senna-f1-1988-monaco-mi-goodwood-07092020.jpg?rxy=0.5,0.5" alt="" style="max-width: 98%;">
+                    <img id="mxrb1" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2022/03/Schumacher-1998.png" alt="" style="max-width: 98%;">
+                    <img id="mxrb1" src="https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/01/21_08_06_05a7265bba9c85a755475437e5c43043_960-1.jpg" alt="" style="max-width: 98%;">
+                    <img id="mxrb1" src="https://car-images.bauersecure.com/wp-images/3865/williams_f1_068.jpg" alt="" style="max-width: 98%;">
+                </section>
+                <hr id="img-div">
             </aside>
             <div>
-                <article>
+                <article id="overview-article">
                     <header>
-                        <!-- Articles header goes here -->
-                         <h2>Ten Amusing Facts About Dogs</h2>
-                         <h3>Read Time 5 Minutes</h3>
+                         <h2 id="main-subtitle">Introduction to Formula 1</h2>
+                         <hr id="intdiv">
+                         <h3 id="overview">Overview of Formula 1</h3>
                     </header>
                     <main>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eaque eos ad vero, incidunt vitae dolor, quo natus rerum nihil dolore eum distinctio, consectetur mollitia! Maxime culpa eligendi nisi quaerat.
+                            Formula 1 is an open-wheel racing formula. There are 10 teams on the grid, each fielding two drivers. These teams and drivers compete in races, and their finishing position in the race determines how many points they gain. There are two championship's up for grabs, the World Constructors' Championship (WCC) and the World Drivers' Championship (WDC). Formula 1 races around the world, in the 2024 season there are 24 Grand Prix in five continents. The first official Grand Prix was the 1950 British Grand Prix, and Formula 1 has occurred continously since, although the tracks and cars have changed significantly. It has some of the fastest racing cars in the world, and is often described as the 'pinnacle of motorsport.'
                         </p>
                         <blockquote>
-                            "Hello" - <cite> Brown, 2024 </cite>
+                            "F1 is about the best drivers competing against each other for the best teams producing the best cars they can" - <cite> Lewis Hamilton, 2015 </cite>
                         </blockquote>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse molestiae veritatis nam eos eveniet hic. Perspiciatis, minus voluptates, fuga odio nulla quae et iusto dicta, sunt sapiente ea? Distinctio dolore sequi sunt assumenda nam exercitationem voluptatem accusantium aut, velit necessitatibus qui dicta rem, quae ad saepe non quibusdam totam perspiciatis. Atque sunt consectetur error consequuntur, incidunt, doloribus temporibus obcaecati cumque laudantium ea maiores nihil nam aliquam reprehenderit quaerat tempore numquam ratione perferendis illo assumenda unde. In distinctio quidem repudiandae?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laboriosam fuga cupiditate ipsa! Error sed eum in ratione rerum ipsam ea. Eaque similique corrupti, magnam atque incidunt maxime dignissimos tempora ipsam perferendis! Similique sunt nobis accusamus debitis velit corporis nulla non, et id illo rerum consectetur, ipsa, maxime porro earum. Deleniti numquam commodi excepturi quod qui sunt doloribus odit, est iste ut! Debitis saepe dignissimos provident beatae maiores odio, deserunt asperiores tenetur possimus facere dicta cum eos velit nihil facilis necessitatibus obcaecati sit, autem sint adipisci delectus numquam, ut mollitia sapiente. Non dicta odio incidunt magni cupiditate optio omnis vel aliquid excepturi a animi doloremque enim sapiente iusto, mollitia natus deserunt fugit inventore saepe porro officiis minus ratione nihil. Soluta esse minima quasi voluptatum, delectus dicta assumenda laudantium eveniet nostrum eos recusandae dolorum, deleniti nulla reiciendis accusantium inventore eius eligendi? Atque saepe veritatis cumque autem earum voluptate odit, nam sit?
-                        </p>
                     </main>
-                    <footer>
-                        <h2> Author: Jack Brown </h2>
-                        <img src="https://placebear.com/100/100" alt="A Profile Picture of a Bear">
-                        <h3> Last Posted 22/08/2024 </h3>
-                        <a href="https://www.brightnetwork.co.uk/couch-to-coder-lesson-2/" target="_blank">Author's Profile</a>
-                    </footer>
                 </article>
-                <article>
+                <article id="table-article">
                     <header>
-                        <!-- Articles header goes here -->
-                         <h2>Ten Amusing Facts About Dogs</h2>
-                         <h3>Read Time 5 Minutes</h3>
+                         <h3 id="table-header"> 2024 Season Standings </h3>
                     </header>
                     <main>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eaque eos ad vero, incidunt vitae dolor, quo natus rerum nihil dolore eum distinctio, consectetur mollitia! Maxime culpa eligendi nisi quaerat.
-                        </p>
-                        <blockquote>
-                            "Hello" - <cite> Brown, 2024 </cite>
-                        </blockquote>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse molestiae veritatis nam eos eveniet hic. Perspiciatis, minus voluptates, fuga odio nulla quae et iusto dicta, sunt sapiente ea? Distinctio dolore sequi sunt assumenda nam exercitationem voluptatem accusantium aut, velit necessitatibus qui dicta rem, quae ad saepe non quibusdam totam perspiciatis. Atque sunt consectetur error consequuntur, incidunt, doloribus temporibus obcaecati cumque laudantium ea maiores nihil nam aliquam reprehenderit quaerat tempore numquam ratione perferendis illo assumenda unde. In distinctio quidem repudiandae?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laboriosam fuga cupiditate ipsa! Error sed eum in ratione rerum ipsam ea. Eaque similique corrupti, magnam atque incidunt maxime dignissimos tempora ipsam perferendis! Similique sunt nobis accusamus debitis velit corporis nulla non, et id illo rerum consectetur, ipsa, maxime porro earum. Deleniti numquam commodi excepturi quod qui sunt doloribus odit, est iste ut! Debitis saepe dignissimos provident beatae maiores odio, deserunt asperiores tenetur possimus facere dicta cum eos velit nihil facilis necessitatibus obcaecati sit, autem sint adipisci delectus numquam, ut mollitia sapiente. Non dicta odio incidunt magni cupiditate optio omnis vel aliquid excepturi a animi doloremque enim sapiente iusto, mollitia natus deserunt fugit inventore saepe porro officiis minus ratione nihil. Soluta esse minima quasi voluptatum, delectus dicta assumenda laudantium eveniet nostrum eos recusandae dolorum, deleniti nulla reiciendis accusantium inventore eius eligendi? Atque saepe veritatis cumque autem earum voluptate odit, nam sit?
-                        </p>
+                        <table id="wdc-table">
+                            <caption id="wdccap"> The WDC Table 2024 </caption>
+                            <thead>
+                                <tr>
+                                    <th>Pos</th>
+                                    <th>Name</th>
+                                    <th>Team</th>
+                                    <th>Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Max Verstappen</td>
+                                    <td>Red Bull Racing</td>
+                                    <td>303</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Lando Norris</td>
+                                    <td>Mclaren</td>
+                                    <td>241</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Charles Leclerc</td>
+                                    <td>Ferrari</td>
+                                    <td>217</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Oscar Piastri</td>
+                                    <td>Mclaren</td>
+                                    <td>197</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Carlos Sainz</td>
+                                    <td>Ferrari</td>
+                                    <td>184</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Lewis Hamilton</td>
+                                    <td>Mercedes</td>
+                                    <td>164</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Sergio Perez</td>
+                                    <td>Red Bull Racing</td>
+                                    <td>143</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>George Russell</td>
+                                    <td>Mercedes</td>
+                                    <td>128</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Fernando Alonso</td>
+                                    <td>Aston Martin</td>
+                                    <td>50</td>   
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Lance Stroll</td>
+                                    <td>Aston Martin</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Nico Hulkenberg</td>
+                                    <td>Haas</td>
+                                    <td>22</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Yuki Tsunoda</td>
+                                    <td>Racing Bulls</td>
+                                    <td>22</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Daniel Ricciardo</td>
+                                    <td>Racing Bulls</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>Pierre Gasly</td>
+                                    <td>Alpine</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Oliver Bearman</td>
+                                    <td>Ferrari*</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Kevin Magnussen</td>
+                                    <td>Haas</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Alexander Albon</td>
+                                    <td>Williams</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Esteban Ocon</td>
+                                    <td>Alpine</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>Zhou Guanyu</td>
+                                    <td>Sauber</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Logan Sargeant</td>
+                                    <td>Williams**</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Franco Colapinto</td>
+                                    <td>Williams</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>Valtteri Bottas</td>
+                                    <td>Sauber</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <table id="wcc-table">
+                            <caption id="wdccap"> The WCC Table 2024 </caption>
+                            <thead>
+                                <tr>
+                                    <th>Pos</th>
+                                    <th>Team Name</th>
+                                    <th>Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Red Bull Racing</td>
+                                    <td>446</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Mclaren</td>
+                                    <td>438</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Ferrari</td>
+                                    <td>407</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Mercedes</td>
+                                    <td>292</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Aston Martin</td>
+                                    <td>74</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Racing Bulls</td>
+                                    <td>34</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Haas</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Alpine</td>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Williams</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Sauber</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </main>
-                    <footer>
-                        <h2> Author: Jack Brown </h2>
-                        <img src="https://placebear.com/100/100" alt="A Profile Picture of a Bear">
-                        <h3> Last Posted 22/08/2024 </h3>
-                        <a href="https://www.brightnetwork.co.uk/couch-to-coder-lesson-2/" target="_blank">Author's Profile</a>
-                    </footer>
                 </article>
-                <article>
+                <article id="teams-article">
+                    <hr id="tab-div">
                     <header>
-                        <!-- Articles header goes here -->
-                         <h2>Ten Amusing Facts About Dogs</h2>
-                         <h3>Read Time 5 Minutes</h3>
+                         <h3 id="teams-header"> Formula 1 Teams </h3>
+                         <p>
+                            In this section I will give a brief insight into the ten teams on the grid, and how their seasons are going.
+                         </p>
                     </header>
                     <main>
+                        <h4 id="rebull-header"> Red Bull Racing - 446 </h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eaque eos ad vero, incidunt vitae dolor, quo natus rerum nihil dolore eum distinctio, consectetur mollitia! Maxime culpa eligendi nisi quaerat.
+                            Red Bull Racing are the currently hold both the WCC and WDC titles, and are leading the way in both competitions again this season. The RB20, the name of this year's Red Bull, had a strong start to the season, with Max Verstappen winning 4 out of the 5 opening races. Since these opening races, the pace and dominance of the Red Bull car has waned slighlty, only picking up 3 wins from then. Despite the dip in form, Red Bull and Max Verstappen have continued to score solid points, therefore maintaining the lead at the top of both championships.
+                        </p>
+                        <h4 id="mc-header"> Mclaren - 438 </h4>
+                        <p>
+                            McLaren often have a tough start to the season, with recent opening race weekends not going well for the papaya team. However, the 2024 season was a break from the shaky starts, finishing well within the points during the opening races of the season. McLaren have become faster as the season has gone on, bringing significant upgrades throughout the season which have placed the team in a controlling position, with arguably the fastest car currently on the grid. The raw pace in the car has allowed Lando Norris and Oscar Piastri to both pick up race wins, the first for the team since Daniel Ricciardo's win in 2021. These represent significant steps forward for the team. Despite the pace of the car, there have been mistakes within the team, both on the driver and strategy side which has cost the team important points which they may regret as the seaosn goes down to the wire.
+                        </p>
+                        <h4 id="fe-header"> Ferrari - 407 </h4>
+                        <p>
+                            Ferrari have had an interesting 2024 season so far, with them being strong contenders, but unable to consistently challenge the top teams such as Red Bull. However, Ferrari's strategy and overall team synergy has improved in 2024, allowing them to remain fast throughout the season so far. This has led to historic wins for the Tifosi and Charles Leclerc at Monaco and Monza, two of the most famous and prestigious Grand Prix on the calendar. Carlos Sainz also picked up an early win at Australia, disrupting the early season victories of Red Bull, demonstrating the strong pace Ferarri have shown throughout the season. However, whilst they have been able to convert in big ways, the inability to consistently challenge for podiums has hurt the team and leads them slightly behind in the points.
+                        </p>
+                        <h4 id="me-header"> Mercedes - 292 </h4>
+                        <p>
+                            Mercedes began the 2024 season slowly, falling towards the back of the points scoring positions. This led to a signgicant deficit to the surrounding top teams and left them needing significant upgrades in order to gain pace back on their competitors. The major shift from the 'zero-sidepod' chassis they had been running in 2023 meant they started further back in terms of R&D. Major upgrades were finished in early June which significantly improved Mercedes' race pace. The true demonstration of this came at Silverstone where Lewis Hamilton secured his 104th win in a race where the Mercedes car looked majestic.
+                            The good form for Mercedes has continued, with them securing other race wins and podiums. If this form continues, the team coud look to push for third or better in the constructors', although there is over 100 points to make up.
+                        </p>
+                        <h4 id="am-header"> Aston Martin - 74 </h4>
+                        <p>
+                            Aston Martin marks the gap between the top four teams and the rest of the grid. They are in a difficult position, as they do not have the pace to compete with those teams above them. However, they are comfortably 5th, not being challenged by those teams below them. Aston Martin have been able to capitilise on certain opportunities, such as Fernando Alonso's 5th place finish in Saudi Arabia. Whilst some opportunities such as these have bought them above the likes of Racing Bull or Haas, the AMR24 cannot compete with those above, leaving Alonso and Stroll in no man's land. However, the recent acquisition of Adrian Newey, the foremost aerodynamicist in the sport, the upcoming partnership with Honda, and the headquarters' upgrades (including a state of the art wind tunnel costing roughly $230 million) have set Aston Martin up perfectly for the new regulations in 2026.
                         </p>
                         <blockquote>
-                            "Hello" - <cite> Brown, 2024 </cite>
+                            "Adrian is the greatest in the world at what he does. There's nobody who has come close to winning as many World Championships. He's a gentleman, he's a winner, he's a competitor, and he has the passion and desire to win" - <cite> Lawrence Stroll, 2024 </cite>
                         </blockquote>
+                        <h4 id="rab-header"> Racing Bulls - 34 </h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse molestiae veritatis nam eos eveniet hic. Perspiciatis, minus voluptates, fuga odio nulla quae et iusto dicta, sunt sapiente ea? Distinctio dolore sequi sunt assumenda nam exercitationem voluptatem accusantium aut, velit necessitatibus qui dicta rem, quae ad saepe non quibusdam totam perspiciatis. Atque sunt consectetur error consequuntur, incidunt, doloribus temporibus obcaecati cumque laudantium ea maiores nihil nam aliquam reprehenderit quaerat tempore numquam ratione perferendis illo assumenda unde. In distinctio quidem repudiandae?
+                            Racing Bulls are the sister team to Red Bull Racing, and have histroically been used as a testing ground for Red Bull academy prospects. Yuki Tsunoda is one such driver and has had some good races in below average machinery. His P7 finishes in Australia and Miami demonstrate his ability to pick up points when the opportunity arises. However, both drivers have been prone to accidents, coupled with the car which hasn't been able to push, the Racing Bulls have been fairly anonymous. The most noteworthy events throughout the season for the team have been the interactions between Tsunoda and Ricciardo, both touted to potentially replace Sergio Perez at Red Bull. There has also been speculation over the sale of the team. Overall, the team has been in a difficult position without the machinery to challenge the teams above them.
                         </p>
+                        <h4 id="ha-header"> Haas - 28 </h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laboriosam fuga cupiditate ipsa! Error sed eum in ratione rerum ipsam ea. Eaque similique corrupti, magnam atque incidunt maxime dignissimos tempora ipsam perferendis! Similique sunt nobis accusamus debitis velit corporis nulla non, et id illo rerum consectetur, ipsa, maxime porro earum. Deleniti numquam commodi excepturi quod qui sunt doloribus odit, est iste ut! Debitis saepe dignissimos provident beatae maiores odio, deserunt asperiores tenetur possimus facere dicta cum eos velit nihil facilis necessitatibus obcaecati sit, autem sint adipisci delectus numquam, ut mollitia sapiente. Non dicta odio incidunt magni cupiditate optio omnis vel aliquid excepturi a animi doloremque enim sapiente iusto, mollitia natus deserunt fugit inventore saepe porro officiis minus ratione nihil. Soluta esse minima quasi voluptatum, delectus dicta assumenda laudantium eveniet nostrum eos recusandae dolorum, deleniti nulla reiciendis accusantium inventore eius eligendi? Atque saepe veritatis cumque autem earum voluptate odit, nam sit?
+                            Haas, despite their low points tally, have had a much improved season in comparison to their 2023 efforts. They had some raw pace during the prior season, with successes in qualifying such as Nico Hulkenberg's P4 and P2 starts at Austria and Canada respectively. However, their race pace did not compare to their qualifying results, with poor tire durability being a big reason for this. In 2024, the race pace has been much improved, with them doing comparative stints to their compeititors. Furthermore, Haas have been bold with their strategies and teamamte Kevin Magnussen has sometimes sacrificed his race to ensure points for Hulkenberg. This teamwork has allowed the team to net more points than previous seasons, making the season a relative success.
+                        </p>
+                        <h4 id="ap-header"> Alpine - 13 </h4>
+                        <p>
+                            Alpine, in contrast to Haas, has been on a downwards trend in recent years. There has been internal turmoil within the French in recent years, with a number of team principals being replaced indicating strife within the team. This has coincided with a drop in raw pace in the Alpine garage, seeing the team drop down the constructors standings. Neither Pierre Gasly or Esteban Ocon have been too successful this season with neither teamate making it to double points yet this season. Due to the internal issues at Alpine, the team may continue to struggle into the upcoming seasons, and the crucial regulation changes in 2026
+                        </p>
+                        <h4 id="wi-header"> Williams - 6 </h4>
+                        <p>
+                            Williams have also had a relatively poor first half of the 2024 season. Williams is one of the most prestigious teams on the grid, although recent history has not been favourable to the Williams team. The team is attempting to move on from the lows of the 2019 and 2020 seasons and have had some successes in more recent seasons, most notably the 2023 season. However, this season the Williams car hasn't been as quick relatively as it was last season, unable to reach the monstrous straight line speed of the 23 season. Additonally, Williams have made changes to their driver lineup, dropping Logan Sargeant with immediate affect following his crash at Zandvoort. Franco Collapinto, a rookie, is filling this seat. Whilst Williams are still struggling to improve the overall car, they are in an unique position to build up their own drivers and begin to challenge the midfield.
+                        </p>
+                        <h4 id="sab-header"> Sauber - 0 </h4>
+                        <p>
+                            Sauber are the final team in the 2024 standings, having failed to score a point so far. Sauber are in a transition period and will be taken over by Audi in 2026. This puts the current team in an awkward position, as a large focus of the team will be on the new ownership and this transition. Therefore, current season R&D has possibly been sacrificed. Throughout the season, the Sauber car has been by far the slowest car on the grid. Valtteri Bottas has put in some decent drives but the poor machinery under him has let him down, leading to no points. His teamate Zhou has been far off the pace. Additonally, the team has been plagued by poor strategies and slow pit stops which have excacerbated the problems. The team will be focusing on the 2026 regulations and it is likely they will move up the standings when Audi take control.
                         </p>
                     </main>
                     <footer>
-                        <h2> Author: Jack Brown </h2>
-                        <img src="https://placebear.com/100/100" alt="A Profile Picture of a Bear">
-                        <h3> Last Posted 22/08/2024 </h3>
-                        <a href="https://www.brightnetwork.co.uk/couch-to-coder-lesson-2/" target="_blank">Author's Profile</a>
+                        <h2 id="aut-tag"> Author: Jack Brown </h2>
+                        <h3 id="aut-tag"> Last Posted 14/09/2024 </h3>
+                        <p>
+                            Useful links:
+                        <br>
+                        <a href="https://www.formula1.com/" target="_blank">Formula 1 Official Website</a>
+                        <br>
+                        <a href="https://www.bbc.co.uk/sport/formula1" target="_blank">BBC Formula 1</a>
+                        <br>
+                        <a href="https://www.motorsport.com/f1/news/" target="_blank">Motorsport</a>
+                        <br>
+                        <a href="https://www.autosport.com/f1/" target="_blank">Autosport</a>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Formula_One" target="_blank">Formula 1 Wikipedia Page</a>
+                        </p>
                     </footer>
                 </article>
             </div>
@@ -134,8 +372,8 @@
         </div>
         
 
-        <hr>
-        <h2> Sign Up For Our Newsletter! </h2>
+        <hr id="sursec">
+        <h2 id="sur-tag"> Complete Our Survey ! </h2>
         <form action="" method=""> 
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required>
@@ -152,42 +390,38 @@
             <label for="password">Password:</label>
             <input type="password" name="password" id="password">
             <br>
-
-            <label for="favourite_animal">Favourite Animal</label>
-            <input type="radio" name="favourite_animal" id="dog" value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="favourite_animal" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
-            <label for="hedgehog">Hedgehog</label>
-            <br>
-
-
-            <label for="country">Country</label>
-            <select name="country" id="country">
-                <option value="england">England</option>
-                <option value="scotland">Scotland</option>
-                <option value="wales">Wales</option>
-                <option value="northern_ireland">Northern Ireland</option>
+        
+            <label for="favourite team">Favourite Team</label>
+            <select name="favourite team" id="favourite team">
+                <option value="alpine">Alpine</option>
+                <option value="aston_martin">Aston Martin</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="haas">Haas</option>
+                <option value="mclaren">McLaren</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="racing_bulls">Racing Bulls</option>
+                <option value="red_bull">Red Bull</option>
+                <option value="sauber">Sauber</option>
+                <option value="williams">Williams</option>
             </select>
             <br>
 
-            <label for="bio">Biography</label>
-            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+            <label for="reason">Why Is This Your Favourite Team?</label>
+            <textarea name="reason" id="reason" cols="30" rows="2"></textarea>
             <br>
 
             <input type="checkbox" name="subscribe" id="subscribe">
-            <label for="subscribe">Subscribe To Our Newsletter</label>
+            <label for="subscribe">Subscribe To Our Newsletter?</label>
             <br>
 
             <input type="submit" value="Send">
 
         </form>
-        <hr>
+        <hr id="sursec">
 
     </main>
     <footer>
-        <h2> Bright Blog Site </h2>
+        <h2 id="footer-header"> Formula 1 Fan Page </h2>
         <section>
             <nav>
                 <ul id="footer-ul">
@@ -195,7 +429,6 @@
                         <li><a href="">Home</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Contact Us</a></li>
-                        <li><a href="">Careers</a></li> 
                     </div>
                     <div>
                         <li><a href="">Privacy Policy</a></li>
